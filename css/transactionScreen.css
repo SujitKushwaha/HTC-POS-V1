@@ -1,0 +1,399 @@
+html,body
+{
+	height:100%;
+    width:100%;
+}
+
+#main
+{
+	height:100%;
+	width:100%;
+}
+
+#first
+{
+	height:95%;
+	width:100%;
+	background-Color:black;
+	border-width:5vw;
+	border-color:grey;
+}
+#second
+{
+	height:5%;
+	width:100%;
+	background-Color:black;
+	border-style:groove;
+	border-width:0.2vw;
+	border-color:grey;
+}
+#first-one
+{ 	
+	height:100%;
+	width:50%;
+	background-Color:black;
+	border-style:groove;
+	border-width:0.2vw;
+	border-color:grey;
+	float:left;
+}
+#first-two
+{ 	
+	height:100%;
+	width:50%;
+	background-Color:black;
+	border-style:groove;
+	border-width:0.2vw;
+	border-color:grey;
+	float:left;
+}
+#first-one-1
+{
+	height:5%;
+	width:100%;
+	background-Color:white ;
+	color:red;
+	font-size:15px;
+}
+#first-one-one
+{
+	height:70%;
+	width:100%;
+	background-Color:#F8F8F8 ;
+	border-style:groove;
+	border-width:0.15vw;
+	border-color:grey;
+}
+#first-one-two
+{
+	height:25%;
+	width:100%;
+	border-style:groove;
+	border-width:0.15vw;
+	border-color:grey;
+}
+#first-two-one
+{
+	height:60%;
+	width:100%;
+}
+#first-two-two
+{
+	height:40%;
+	width:70%;
+	border-style:groove;
+	border-width:0.25vw;
+	border-bottom:black;
+	border-left:black;
+	border-color:grey;
+}
+#view-one
+{
+	height:75%;
+	width:100%;
+}
+#view-one-one
+{
+	height:100%;
+	width:70%;
+	float:left;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+}
+#view-one-two
+{
+	height:100%;
+	width:30%;
+	float:right;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+}
+#one
+{
+	margin-top:3px;
+	height:33.3%;
+	width:100%;
+	color:white;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+	border-left:black;
+	border-top:black;
+	border-right:black;
+}
+#two
+{
+	margin-top:3px;
+	height:33.3%;
+	width:100%;
+	color:white;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+	border-left:black;
+	border-top:black;
+	border-right:black;
+}
+#three
+{
+	margin-top:3px;
+	height:33.3%;
+	width:100%;
+	color:white;
+}
+
+#numberPad
+{
+	height:98%;
+	width:80%;
+	margin-left:2px;
+	margin-top:2px;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+	float:left;
+}
+#Row2
+{
+	width:100%;
+	height:100%;
+}
+#Option-row1
+{
+	width:100%;
+	height:20%;
+}
+#Option-row2
+{
+	width:100%;
+	height:20%;
+}
+#Option-row3
+{
+	width:100%;
+	height:20%;
+}
+#Option-row4
+{
+	width:100%;
+	height:20%;
+}
+#Option-row5
+{
+	width:100%;
+	height:20%;
+}
+#numPad
+{
+	height:98%;
+	width:75%;
+	border-color:black;
+	float:left;
+}
+#numPadOptions
+{
+	height:98%;
+	width:25%;
+	border-color:black;
+	float:right;
+}
+#cross
+{
+	height:98%;
+	width:19%;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+	float:right;
+}
+#NP-one
+{
+	width:100%;
+	height:50%;
+}
+#NP-two
+{
+	width:100%;
+	height:50%;
+}
+#NP-One-row1
+{
+	width:100%;
+	height:25%;
+}
+#NP-One-row2
+{
+	width:100%;
+	height:25%;
+}
+#NP-One-row3
+{
+	width:100%;
+	height:25%;
+}
+#NP-One-row4
+{
+	width:100%;
+	height:25%;
+}
+#input
+{
+	height:25%;
+	width:100%;
+	border-style:groove;
+	border-width:0.25vw;
+	border-color:grey;
+}
+
+ #itemname
+ {
+ text-indent: 2vw;
+ font-size:1.5vw;
+  float:left;
+ left:15vw;
+ }
+  #itemrate
+{
+ font-size:1.5vw;
+ float:left;
+ left:18vw; 
+ position:absolute;
+ text-align:right;
+ }
+  #itemqty
+{
+ font-size:1.5vw;
+ float:left;
+ left:3vw; 
+ }
+ #inputText
+ {
+	width:20%;
+	height:100%;
+	float:left;
+	color:white;
+ }
+ #inputBox
+ {
+	width: 80%;
+	height:100%;
+	float:right;
+}
+#tb1
+{
+    font-size:100%;
+    background-color :white;
+	width: 100%;
+	height:100%;
+}
+ #myrow
+{
+	width:100%;
+	border-style:groove;
+	border-width:2px;
+	height:5vh;
+    color:#542437;
+	border-top:white;
+	border-right:white;
+	border-left:white;
+	border-bottom:white;
+	position:relative;
+	text-align:center;
+	border-color: grey;
+	float:left;
+}
+#mytotal
+{
+	width:100%;
+	background-color:#F8F8F8;
+	border-style:groove;
+	border-width:2px;
+	height:5vh;
+    color:#542437;
+	border-bottom:white;
+	border-right:white;
+	border-left:white;
+	position:relative;
+	text-align:center;
+	border-color: grey;
+	float:left;
+}
+button[type="optionButton"]
+{
+	height:95%;
+	width:25%;
+	background-color:white;	
+	float:left;
+	text-align:center;
+	color: black;
+	font-size:1.75vw;
+    border-radius: 10px;
+	margin-left:3px;
+	margin-top:2px;
+}
+
+button[type="crossButton"]
+{
+	height:30%;
+	width:99%;
+	margin-left:1px;
+	color:white;
+	background:linear-gradient(#828282,black);
+}
+button[type="numpadButton1"]
+{
+	height:24%;
+	width:96%;
+	margin-top:3px;
+	margin-left:2px;
+	color:white;
+    border-radius: 10px;
+	background-color:#5C8A8A;
+}
+button[type="enterButton"]
+{
+	height:50%;
+	width:96%;
+	margin-top:3px;
+	margin-left:2px;
+	color:white;
+    border-radius: 10px;
+	background-color:#5C8A8A;
+}
+button[type="doubleZeroButton"]
+{
+	height:96%;
+	width:65%;
+	margin-top:3px;
+	margin-left:2px;
+	color:white;
+    border-radius: 10px;
+	background-color:#5C8A8A;
+}
+button[type="numpadButton"]
+{
+	height:96%;
+	width:31%;
+	margin-top:3px;
+	margin-left:2px;
+	color:white;
+    border-radius: 10px;
+	background-color:#5C8A8A;
+}
+button[type="Button"]
+{
+	height:96%;
+	width:49%;
+	margin-top:2px;
+	margin-left:1px;
+	color:white;
+    border-radius: 10px;
+	background-color:#406060;
+	float:left;
+}
+.pending-delete {
+  background-color: #B2B2C1;
+  color:white;
+}

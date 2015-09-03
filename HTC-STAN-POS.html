@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="starter">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<title>Todo</title>
+	
+		<link href="css/Style.css" rel="stylesheet">
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </head>
+	
+    <body ng-controller="MainController" >
+	<div id="main">
+		<div id="first">
+			<div id="first-one">
+				<div id="first-one-one">
+				</div>
+				<div id="first-one-two">
+					<div id="operator">
+						<div id="operator-one" ng-hide="userIdFlag"><h5>Please Enter Identification</h5>
+						</div>
+						<div id="operator-one" ng-hide="!userIdFlag"><h5>Please Enter Password</h5>
+						</div>
+						<div id="operator-box">
+							<form name="myFormNg" ng-submit="okpress()">
+								<input type="text" name="formid" ng-model="btnstring" id="tb1" autofocus required />
+								<br />
+								<input type="button"  name="Submit" value=" Apply " style="position: absolute; height: 0px; width: 0px; border: none; padding: 0px;" hidefocus="true" tabindex="-1" />
+							</form>
+						</div>
+					</div>
+					<div id="operatorOptions">
+						<button type="optionButton" ng-click="enterbtnpress()">OK</button>
+						<button type="optionButton" >Exit</button> 
+					</div>
+				</div>
+			</div>
+			<div id="first-two">
+				<div id="first-two-one">
+				</div>
+				<div id="first-two-two">
+					<div id="numberPad">
+						<div id="numPad">
+							<div id="NP-One-row1">
+							   <button type="numpadButton" ng-click="btnpress(7)">7</button> 
+							   <button type="numpadButton"  ng-click="btnpress(8)">8</button>
+							   <button type="numpadButton" ng-click="btnpress(9)" >9</button>
+							</div>
+							<div id="NP-One-row2">
+							   <button type="numpadButton" ng-click="btnpress(4)">4</button>
+							   <button type="numpadButton" ng-click="btnpress(5)" >5</button>
+							   <button type="numpadButton" ng-click="btnpress(6)" >6</button>
+							</div>
+							<div id="NP-One-row3">
+							   <button type="numpadButton"  ng-click="btnpress(1)">1</button>
+							   <button type="numpadButton"  ng-click="btnpress(2)">2</button>
+							   <button type="numpadButton"  ng-click="btnpress(3)">3</button>
+							</div>
+							<div id="NP-One-row4">
+								<button type="numpadButton" ng-click="btnpress(0)">0</button>
+							    <button type="doubleZeroButton" ng-click="doubleZero()">00</button>
+							</div>
+						</div>
+						<div id="numPadOptions">
+							<button type="numpadButton1" ng-click="cncpress()">C</button>
+							<button type="numpadButton1" ng-click="btnpress(x)">*</button>
+							<button type="enterButton" ng-click="enterbtnpress()">Enter</button>
+						</div>
+					</div>
+					<div id="cross">
+						<button type="crossButton" ng-click="cancelpress()">X</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="second">
+		</div>
+		<script src="js/angular.js"></script>
+		<script src="js/app1.js"></script>
+	</div>
+	</body>
+</html>
